@@ -8,5 +8,5 @@ References:
 ### Implementation
 - A http server using actix-web with a single endpoint accepting POST request with a payload.
 - Preload training data (tested with AG news dataset) before starting the server.
-- Store klass, original_text, compressed_text as global Vec.
-- Used K = 1000 for testing 
+- Store klass, original_text & compressed_text(using async_compression ZlibEncoder) as global Vec.
+- Used K = 1000 for testing.
