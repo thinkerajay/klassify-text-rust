@@ -1,5 +1,5 @@
 # klassify-text-rust
-A Rest Service to classify text using gzip and KNN
+A Rest Service to classify text using zlib and KNN
 
 References:
 - Less is More: Parameter-Free Text Classification with Gzip(https://arxiv.org/pdf/2212.09410.pdf)
